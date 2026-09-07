@@ -20,11 +20,17 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://talleres-gestion-tecnica.vercel.app"),
+  metadataBase: new URL("https://talleros.coffeetec.com.ar"),
   title: "TallerOS — Gestión para técnicos",
   description: "Órdenes, clientes, diagnósticos y cobros para servicios técnicos de computadoras y celulares. Instalable y disponible sin conexión.",
   applicationName: "TallerOS",
   manifest: "/manifest.webmanifest",
+  robots: {
+    index: false,
+    follow: false,
+    noarchive: true,
+    noimageindex: true,
+  },
   icons: {
     icon: [
       { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
