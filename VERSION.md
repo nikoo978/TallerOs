@@ -1,4 +1,10 @@
-# V.1.0.0
+# V.1.0.1 — 09/09/2026
+
+- Next.js actualizado a 16.3.4.
+- Contenedor de producción con salida standalone y usuario sin privilegios.
+- Cabeceras HTTP y actualización de la caché de la PWA.
+
+## V.1.0.0
 
 Primera versión formal declarada por el proyecto.
 
