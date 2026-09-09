@@ -1,4 +1,4 @@
-const CACHE_VERSION = "2026-08-27-v5";
+const CACHE_VERSION = "2026-09-09-v1.0.1";
 const CACHE_PREFIX = "talleros-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${CACHE_VERSION}`;
 const STATIC_CACHE = `${CACHE_PREFIX}static-${CACHE_VERSION}`;
